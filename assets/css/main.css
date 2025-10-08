@@ -81,7 +81,6 @@ a:hover
 
     color: #1367e6;
 }
-
 button,
 a,
 .btn
@@ -195,6 +194,12 @@ h6,
 }
 
 .section-gap
+{
+    position: relative;
+
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
 {
     position: relative;
 
@@ -2431,7 +2436,7 @@ carousel
     border-radius: 50%;
 }
 .nav-circle.owl-theme .owl-nav [class*=owl-]:hover,
-.nav-circle-light.owl-theme .owl-nav [class*=owl-]:hover,
+.nav-circle-light.owl-theme .owl-nav [class*=owl-]:er,
 .nav-circle-solid-light.owl-theme .owl-nav [class*=owl-]:hover
 {
     color: #fff;
